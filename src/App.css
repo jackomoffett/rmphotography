@@ -30,3 +30,29 @@
     align-items: center;
     padding: 0 10px;
   }
+
+.Home {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+  .logo {
+    margin-top: 20px;
+    background-color: #eee3d7;
+  }
+
+  .tiles {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 50px;
+  }
+  
+  .tile {
+    padding: 10px;
+    height: 350px;
+    width: 350px;
+    background-color: #eee3d7
+  }
