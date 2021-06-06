@@ -1,8 +1,9 @@
 import "./App.css";
 
 import Home from "./pages/Home";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
+import Dogs from "./pages/Dogs";
+import Horses from "./pages/Horses";
+import Gallery from "./pages/Gallery";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
@@ -17,10 +18,11 @@ function App() {
 
         <Route exact path="/" component={Home} />
         <Route exact path="/home" component={Home} />
-        <Route exact path="/about" component={About} />
-        <Route exact path="/contact" component={Contact} />
+        <Route exact path="/dogs" component={Dogs} />
+        <Route exact path="/horses" component={Horses} />
+        <Route exact path="/gallery" component={Gallery} />
       </Router>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

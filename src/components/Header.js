@@ -10,10 +10,13 @@ const Header = () => {
             <HeaderLink page="home" />
           </li>
           <li>
-            <HeaderLink page="about" />
+            <HeaderLink page="dogs" />
           </li>
           <li>
-            <HeaderLink page="contact" />
+            <HeaderLink page="horses" />
+          </li>
+          <li>
+            <HeaderLink page="gallery" />
           </li>
         </ul>
       </header>
