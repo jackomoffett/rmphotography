@@ -19,6 +19,11 @@ const Header = () => {
             <HeaderLink page="gallery" />
           </li>
         </ul>
+        <div className="App-header-socials">
+          <a href="https://www.facebook.com/RachelMoffettphotography">
+            Facebook
+          </a>
+        </div>
       </header>
     </>
   );

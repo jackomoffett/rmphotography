@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #bfa977;
+  background-color: #f0eeed;
   color: black;
 }
 .App-header {
@@ -12,47 +12,44 @@
   justify-content: space-between;
   width: 100%;
   font-size: calc(10px + 1vmin);
+  padding-top: 30px;
 }
 
 .App-header-logo {
-  padding-left: 40px
+  padding-left: 40px;
+  width: 20%;
 }
 
 .App-header-links {
   display: flex;
   list-style-type: none;
   padding-right: 40px;
-  font-size: 16px
+  font-size: 16px;
 }
 
-  li {
-    display: flex;
-    align-items: center;
-    padding: 0 10px;
-  }
+.App-header-socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+}
+
+.App-header-socials > a {
+  font-size: 16px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  padding: 0 40px;
+}
+a {
+  text-decoration: none;
+  color: #6d6e75;
+}
 
 .Home {
   display: flex;
   flex-flow: wrap;
   justify-content: center;
 }
-
-  .logo {
-    margin-top: 20px;
-    background-color: #eee3d7;
-  }
-
-  .tiles {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
-    margin-top: 50px;
-  }
-  
-  .tile {
-    padding: 10px;
-    height: 350px;
-    width: 350px;
-    background-color: #eee3d7
-  }

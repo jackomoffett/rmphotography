@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
 
 function Home() {
-  return <div className="Home">
-    <div className="logo">
+  return (
+    <div className="Home">
+      {/* <div className="logo">
       <img src="logo.jpg" height="150px" />
     </div>
     <div className="tiles">
@@ -17,8 +18,9 @@ function Home() {
       </Link>
       
       
+    </div> */}
     </div>
-  </div>;
+  );
 }
 
 const HeaderLink = ({ page }) => {
