@@ -4,26 +4,31 @@ const Header = () => {
   return (
     <>
       <header className="App-header">
-        <p className="App-header-logo">Rachel Moffett Photography</p>
+        <div className="App-header-logo">
+          <p>Rachel Moffett</p> <p>Photography</p>
+        </div>
         <ul className="App-header-links">
           <li>
             <HeaderLink page="home" />
           </li>
           <li>
-            <HeaderLink page="dogs" />
+            <HeaderLink page="about me" />
           </li>
           <li>
-            <HeaderLink page="horses" />
+            <HeaderLink page="photography" />
           </li>
           <li>
             <HeaderLink page="gallery" />
           </li>
+          <li>
+            <HeaderLink page="contact" />
+          </li>
         </ul>
-        <div className="App-header-socials">
+        {/* <div className="App-header-socials">
           <a href="https://www.facebook.com/RachelMoffettphotography">
             Facebook
           </a>
-        </div>
+        </div> */}
       </header>
     </>
   );
