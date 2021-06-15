@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
+
 .App {
   text-align: center;
   height: 100vh;
@@ -18,16 +20,18 @@
 }
 
 .App-header-logo {
-  font-size: 64px;
+  font-size: 100px;
 }
 
 .App-header-logo > p {
   margin: 0;
+  font-family: "Allura", cursive;
 }
 
 .App-header-logo > p:first-child {
   font-size: 50px;
   margin: 0;
+  font-family: "Allura", cursive;
 }
 
 .App-header-links {
