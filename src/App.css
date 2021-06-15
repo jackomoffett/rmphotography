@@ -29,7 +29,7 @@
 }
 
 .App-header-logo > p:first-child {
-  font-size: 50px;
+  font-size: 60px;
   margin: 0;
   font-family: "Allura", cursive;
 }
@@ -76,9 +76,14 @@ a {
 .block {
   width: 100%;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-around;
+  padding-bottom: 50px;
 }
+
+/* .img-flower {
+  align-self: flex-end;
+} */
 
 /* 6d6e75 */
 /* 9ea0ad */
