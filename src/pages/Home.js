@@ -4,15 +4,27 @@ function Home() {
   return (
     <div className="Home">
       <div className="block">
-        <img src="horse.jpeg" alt="horse" height="700" width="700" />
+        <img
+          className="img-horse"
+          src="horse.jpeg"
+          alt="horse"
+          height="250"
+          width="250"
+        />
         <img
           className="img-flower"
           src="flower.jpeg"
           alt="flower"
-          height="450"
-          width="450"
+          height="350"
+          width="350"
         />
-        <img src="dog.jpeg" alt="dog" height="700" width="700" />
+        <img
+          className="img-dog"
+          src="dog.jpeg"
+          alt="dog"
+          height="250"
+          width="250"
+        />
       </div>
     </div>
   );
