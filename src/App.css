@@ -24,12 +24,13 @@ html, body {
 }
 
 .App-header-logo {
-  font-size: 100px;
+  font-size: 80px;
+  padding-bottom: 30px;
 }
 
 .App-header-logo > p {
   margin: 0;
-  font-family: "Allura", cursive;
+  /* font-family: "Allura", cursive; */
 }
 
 .App-header-logo > p:first-child {
@@ -89,10 +90,7 @@ a {
   align-self: flex-end;
 }
 
-.img-horse, .img-dog {
-  width: 35%;
-  height: auto;
-}
+
 
 /* 6d6e75 */
 /* 9ea0ad */

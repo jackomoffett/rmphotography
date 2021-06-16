@@ -6,10 +6,10 @@ function Home() {
       <div className="block">
         <img
           className="img-horse"
-          src="horse.jpeg"
+          src="horse4.jpg"
           alt="horse"
-          height="250"
-          width="250"
+          height="550"
+          width="550"
         />
         <img
           className="img-flower"
@@ -22,8 +22,8 @@ function Home() {
           className="img-dog"
           src="dog.jpeg"
           alt="dog"
-          height="250"
-          width="250"
+          height="550"
+          width="550"
         />
       </div>
     </div>
