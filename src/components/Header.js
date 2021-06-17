@@ -5,7 +5,7 @@ const Header = () => {
     <>
       <header className="App-header">
         <div className="App-header-logo">
-          <p>Rachel Moffett</p> <p>Photography</p>
+          <p>Rachel Moffett</p> <p>PHOTOGRAPHY</p>
         </div>
         <ul className="App-header-links">
           <li>
