@@ -1,7 +1,7 @@
 import "./App.css";
 
 import Home from "./pages/Home";
-import Dogs from "./pages/Dogs";
+import About from "./pages/About";
 import Horses from "./pages/Horses";
 import Gallery from "./pages/Gallery";
 import Header from "./components/Header";
@@ -18,7 +18,7 @@ function App() {
 
         <Route exact path="/" component={Home} />
         <Route exact path="/home" component={Home} />
-        <Route exact path="/dogs" component={Dogs} />
+        <Route exact path="/about" component={About} />
         <Route exact path="/horses" component={Horses} />
         <Route exact path="/gallery" component={Gallery} />
       </Router>

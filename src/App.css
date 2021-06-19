@@ -21,6 +21,7 @@ html, body {
   width: 100%;
   font-size: calc(10px + 1vmin);
   font-family: 'Benne', serif;
+  padding-bottom: 50px;
 }
 
 .App-header-logo {
@@ -83,14 +84,42 @@ a {
   display: flex;
   align-items: flex-end;
   justify-content: space-around;
-  padding: 50px;
+  padding: 0 50px 50px 50px;
 }
 
 .img-flower {
   align-self: flex-end;
+  width: 20%;
+  height: auto;
 }
+
+.img-horse, .img-dog {
+  width: 40%;
+  height: auto;
+}
+
+
 
 
 
 /* 6d6e75 */
 /* 9ea0ad */
+
+
+/* About page */
+
+.About {
+  display: flex;
+  align-items: center;
+  padding: 50px 15%;
+}
+
+.About-img {
+  padding: 10px;
+}
+
+.About-text {
+  padding: 50px;
+  text-align: left;
+  font-size: 18px;
+}

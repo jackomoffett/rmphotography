@@ -9,19 +9,20 @@ const Header = () => {
         </div>
         <ul className="App-header-links">
           <li>
-            <HeaderLink page="home" />
+            <Link to={"/home"}>Home</Link>
           </li>
           <li>
-            <HeaderLink page="about me" />
+            <Link to={"/about"}>About</Link>
           </li>
           <li>
-            <HeaderLink page="photography" />
+            <Link to={"/photography"}>Photography</Link>
           </li>
           <li>
-            <HeaderLink page="gallery" />
+            <Link to={"/gallery"}>Gallery</Link>
           </li>
           <li>
-            <HeaderLink page="contact" />
+            <Link to={"/contact"}>Contact</Link>
+            {/* <HeaderLink page="contact" /> */}
           </li>
         </ul>
         {/* <div className="App-header-socials">

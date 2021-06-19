@@ -6,7 +6,7 @@ function Home() {
       <div className="block">
         <img
           className="img-horse"
-          src="horse4.jpg"
+          src="horse.jpg"
           alt="horse"
           height="550"
           width="550"
