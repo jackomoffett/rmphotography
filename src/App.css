@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Allura&family=Benne&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Allura&family=Benne&display=swap");
 
-html, body {
+html,
+body {
   background-color: black;
 }
 .App {
@@ -20,7 +21,7 @@ html, body {
   align-items: center;
   width: 100%;
   font-size: calc(10px + 1vmin);
-  font-family: 'Benne', serif;
+  font-family: "Benne", serif;
   padding-bottom: 50px;
 }
 
@@ -93,18 +94,14 @@ a {
   height: auto;
 }
 
-.img-horse, .img-dog {
+.img-horse,
+.img-dog {
   width: 40%;
   height: auto;
 }
 
-
-
-
-
 /* 6d6e75 */
 /* 9ea0ad */
-
 
 /* About page */
 
@@ -122,4 +119,9 @@ a {
   padding: 50px;
   text-align: left;
   font-size: 18px;
+}
+
+.About-text > p:first-child {
+  font-size: 50px;
+  margin: 0px;
 }
