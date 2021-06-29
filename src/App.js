@@ -4,6 +4,8 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Horses from "./pages/Horses";
 import Gallery from "./pages/Gallery";
+import Photography from "./pages/Photography";
+import Pricing from "./pages/Pricing";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
@@ -21,6 +23,8 @@ function App() {
         <Route exact path="/about" component={About} />
         <Route exact path="/horses" component={Horses} />
         <Route exact path="/gallery" component={Gallery} />
+        <Route exact path="/photography" component={Photography} />
+        <Route exact path="/pricing" component={Pricing} />
       </Router>
       {/* <Footer /> */}
     </div>

@@ -1,8 +1,10 @@
+import rmImage from "../assets/images/rm.JPG";
+
 function About() {
   return (
     <div className="About">
       <div className="About-img">
-        <img src="rm.JPG" alt="Rachel Moffett" height="300" width="300" />
+        <img src={rmImage} alt="Rachel Moffett" height="300" width="300" />
       </div>
       <div className="About-text">
         <p>About me</p>

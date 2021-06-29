@@ -24,6 +24,9 @@ const Header = () => {
             <Link to={"/contact"}>Contact</Link>
             {/* <HeaderLink page="contact" /> */}
           </li>
+          <li>
+            <Link to={"/pricing"}>Pricing</Link>
+          </li>
         </ul>
         {/* <div className="App-header-socials">
           <a href="https://www.facebook.com/RachelMoffettphotography">
