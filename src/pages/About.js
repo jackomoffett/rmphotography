@@ -4,7 +4,7 @@ function About() {
   return (
     <div className="About">
       <div className="About-img">
-        <img src={rmImage} alt="Rachel Moffett" height="300" width="300" />
+        <img src={rmImage} alt="Rachel Moffett" />
       </div>
       <div className="About-text">
         <p>About me</p>

@@ -15,17 +15,10 @@ const Header = () => {
             <Link to={"/about"}>About</Link>
           </li>
           <li>
-            <Link to={"/photography"}>Photography</Link>
-          </li>
-          <li>
             <Link to={"/gallery"}>Gallery</Link>
           </li>
           <li>
-            <Link to={"/contact"}>Contact</Link>
-            {/* <HeaderLink page="contact" /> */}
-          </li>
-          <li>
-            <Link to={"/pricing"}>Pricing</Link>
+            <Link to={"/photography"}>Photography</Link>
           </li>
         </ul>
         {/* <div className="App-header-socials">
