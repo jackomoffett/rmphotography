@@ -3,9 +3,6 @@ import rmImage from "../assets/images/rm.JPG";
 function About() {
   return (
     <div className="About">
-      <div className="About-img">
-        <img src={rmImage} alt="Rachel Moffett" />
-      </div>
       <div className="About-text">
         <p>About me</p>
         <p>
@@ -24,6 +21,9 @@ function About() {
           constantly striving to capture images of honesty, beauty, truth and
           connection.
         </p>
+      </div>
+      <div className="About-img">
+        <img src={rmImage} alt="Rachel Moffett" />
       </div>
     </div>
   );

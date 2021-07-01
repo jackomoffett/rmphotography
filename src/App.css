@@ -72,6 +72,57 @@ a {
   color: #d0c7bd;
 }
 
+.App-header-burger {
+  display: none;
+  font-size: 20px;
+  padding: 15px;
+  cursor: pointer;
+  border-top: 0.5px solid #252525;
+  border-bottom: 0.5px solid #252525;
+  width: 100%;
+}
+
+.App-header-links-burger {
+  display: none;
+  flex-flow: column;
+  padding: 0;
+  border: 0;
+  justify-content: space-evenly;
+  width: 100%;
+  list-style-type: none;
+  font-size: 20px;
+  margin: 0;
+}
+
+@media only screen and (max-width: 615px) {
+  .App-header-logo {
+    font-size: 40px;
+  }
+  .App-header-logo > p:first-child {
+    font-size: 30px;
+  }
+  li {
+    padding: 0 0px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .App-header-links {
+    display: none;
+  }
+  .App-header-links-burger {
+    display: flex;
+  }
+  li {
+    border-bottom: 0.5px solid #252525;
+    padding: 15px;
+    justify-content: center;
+  }
+  .App-header-burger {
+    display: block;
+  }
+}
+
 .Home {
   height: 100%;
   width: 100%;
@@ -100,6 +151,17 @@ a {
   height: auto;
 }
 
+/* @media only screen and (max-width: 700px) {
+  .block {
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .img-flower {
+    align-self: center;
+  }
+} */
+
 /* 6d6e75 */
 /* 9ea0ad */
 
@@ -107,7 +169,9 @@ a {
 
 .About {
   display: flex;
+  flex-flow: wrap;
   align-items: center;
+  justify-content: center;
   padding: 50px 15%;
 }
 
@@ -121,8 +185,9 @@ a {
 }
 
 .About-text {
-  padding: 50px;
-  text-align: left;
+  padding: 0px 50px 50px 50px;
+  min-width: 350px;
+  /* text-align: left; */
   font-size: 20px;
   font-family: "Benne", serif;
 }
@@ -130,6 +195,20 @@ a {
 .About-text > p:first-child {
   font-size: 55px;
   margin: 0px;
+}
+
+@media only screen and (max-width: 450px) {
+  .About-img > img {
+    width: 200px;
+  }
+
+  .About {
+    padding: 50px 0;
+  }
+
+  .About-text {
+    padding: 0px 25px;
+  }
 }
 
 /* Gallery */
@@ -149,6 +228,13 @@ a {
   padding: 100px;
 }
 
+@media only screen and (max-width: 615px) {
+  .Gallery-Tile {
+    width: 250px;
+    padding: 25px;
+  }
+}
+
 /* Photography */
 
 .Photography {
@@ -158,6 +244,7 @@ a {
   justify-content: center;
   /* text-align: left;*/
   font-size: 20px;
+  padding: 50px 0;
 }
 
 .Photography-Wrapper {
@@ -171,14 +258,19 @@ a {
 
 .Photography-Wrapper > p:first-child {
   font-size: 55px;
+  margin-top: 0px;
 }
 
 .Photography-Pricing {
   display: flex;
+  flex-flow: wrap;
   width: 100%;
   justify-content: center;
 }
 
 .Photography-Pricing > p {
   padding-right: 20px;
+}
+
+@media only screen and (max-width: 450px) {
 }

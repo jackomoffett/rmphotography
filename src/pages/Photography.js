@@ -47,6 +47,7 @@ function Photography() {
         <p>If you would like any more information please contact me.</p>
         <p>Thank you</p>
         <p>Rachel</p>
+        <p>rachelmoffettphotography@gmail.com</p>
       </div>
     </div>
   );
