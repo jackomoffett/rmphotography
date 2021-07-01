@@ -5,6 +5,10 @@ import { Link } from "react-router-dom";
 const Header = () => {
   const [showMenu, setShowMenu] = useState(true);
 
+  const handleClick = () => {
+    setShowMenu(true);
+  };
+
   return (
     <>
       <header className="App-header">
@@ -34,16 +38,24 @@ const Header = () => {
         {!showMenu ? (
           <ul className="App-header-links-burger">
             <li>
-              <Link to={"/home"}>Home</Link>
+              <Link to={"/home"} onClick={handleClick}>
+                Home
+              </Link>
             </li>
             <li>
-              <Link to={"/about"}>About</Link>
+              <Link to={"/about"} onClick={handleClick}>
+                About
+              </Link>
             </li>
             <li>
-              <Link to={"/gallery"}>Gallery</Link>
+              <Link to={"/gallery"} onClick={handleClick}>
+                Gallery
+              </Link>
             </li>
             <li>
-              <Link to={"/photography"}>Photography</Link>
+              <Link to={"/photography"} onClick={handleClick}>
+                Photography
+              </Link>
             </li>
           </ul>
         ) : null}

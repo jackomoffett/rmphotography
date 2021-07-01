@@ -75,7 +75,7 @@ a {
 .App-header-burger {
   display: none;
   font-size: 20px;
-  padding: 15px;
+  padding: 15px 0;
   cursor: pointer;
   border-top: 0.5px solid #252525;
   border-bottom: 0.5px solid #252525;
@@ -151,16 +151,36 @@ a {
   height: auto;
 }
 
-/* @media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1000px) {
   .block {
-    flex-flow: column;
+    flex-flow: column-reverse;
     align-items: center;
     justify-content: center;
   }
   .img-flower {
     align-self: center;
   }
-} */
+  .img-horse,
+  .img-dog,
+  .img-flower {
+    width: 500px;
+  }
+}
+@media only screen and (max-width: 615px) {
+  .block {
+    flex-flow: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  .img-flower {
+    align-self: center;
+  }
+  .img-horse,
+  .img-dog,
+  .img-flower {
+    width: 300px;
+  }
+}
 
 /* 6d6e75 */
 /* 9ea0ad */
