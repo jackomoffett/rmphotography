@@ -94,7 +94,7 @@ a {
   margin: 0;
 }
 
-@media only screen and (max-width: 615px) {
+@media only screen and (max-width: 650px) {
   .App-header-logo {
     font-size: 40px;
   }
@@ -293,4 +293,54 @@ a {
 }
 
 @media only screen and (max-width: 450px) {
+}
+
+/* Prints */
+
+.Prints {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  font-family: "Benne", serif;
+  font-size: 20px;
+}
+
+.Prints-Display {
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+}
+
+.Print-Tile {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.Print-Tile-Img:first-child {
+  padding: 50px 0 20px;
+}
+
+.Print-Tile-Img {
+  height: auto;
+  width: 500px;
+  padding: 100px 0 20px;
+}
+
+.Print-Tile > p {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+@media only screen and (max-width: 615px) {
+  .Print-Tile-Img {
+    width: 250px;
+    padding: 25px;
+  }
+  .Prints > p:first-child {
+    width: 80%;
+  }
 }

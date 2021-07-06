@@ -34,6 +34,9 @@ const Header = () => {
           <li>
             <Link to={"/photography"}>Photography</Link>
           </li>
+          <li>
+            <Link to={"/prints"}>Prints</Link>
+          </li>
         </ul>
         {!showMenu ? (
           <ul className="App-header-links-burger">
@@ -55,6 +58,11 @@ const Header = () => {
             <li>
               <Link to={"/photography"} onClick={handleClick}>
                 Photography
+              </Link>
+            </li>
+            <li>
+              <Link to={"/prints"} onClick={handleClick}>
+                Prints
               </Link>
             </li>
           </ul>
