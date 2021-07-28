@@ -5,7 +5,7 @@ function Photography() {
         <p>Photography</p>
         <p>
           My fees are £65 for up to a 1 hour session within a 30 mile roundtrip
-          of Hambridge, Somerset. (25p per mile extra, if further than this.)
+          of Hambridge, Somerset. (40p per mile extra, if further than this.)
           This can include horses, dogs, family members and black background
           images if the situation allows. This session could also be used to
           documenting a show or training session and/or the high quality
