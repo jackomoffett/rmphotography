@@ -2,14 +2,13 @@ function Photography() {
   return (
     <div className="Photography">
       <div className="Photography-Wrapper">
-        <p>Photography</p>
+        <p>Fees</p>
         <p>
           My fees are £65 for up to a 1 hour session within a 30 mile roundtrip
           of Hambridge, Somerset. (40p per mile extra, if further than this.)
           This can include horses, dogs, family members and black background
           images if the situation allows. This session could also be used to
-          documenting a show or training session and/or the high quality
-          pictures used to add to social media accounts.
+          documenting a show or training session.
         </p>
         <p>
           Following image download, enhancement and selection of the best shots

@@ -32,7 +32,7 @@ const Header = () => {
             <Link to={"/gallery"}>Gallery</Link>
           </li>
           <li>
-            <Link to={"/photography"}>Photography</Link>
+            <Link to={"/fees"}>Fees</Link>
           </li>
           <li>
             <Link to={"/prints"}>Prints</Link>
@@ -56,8 +56,8 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link to={"/photography"} onClick={handleClick}>
-                Photography
+              <Link to={"/fees"} onClick={handleClick}>
+                Fees
               </Link>
             </li>
             <li>
