@@ -3,7 +3,7 @@ import "./App.css";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Gallery from "./pages/Gallery";
-import Photography from "./pages/Photography";
+import Fees from "./pages/Fees";
 import Prints from "./pages/Prints";
 import Header from "./components/Header";
 
@@ -20,7 +20,7 @@ function App() {
         <Route exact path="/home" component={Home} />
         <Route exact path="/about" component={About} />
         <Route exact path="/gallery" component={Gallery} />
-        <Route exact path="/fees" component={Photography} />
+        <Route exact path="/fees" component={Fees} />
         <Route exact path="/prints" component={Prints} />
       </Router>
       {/* <Footer /> */}
