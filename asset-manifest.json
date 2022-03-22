@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.c6c279e5.chunk.css",
-    "main.js": "/static/js/main.ee41232f.chunk.js",
-    "main.js.map": "/static/js/main.ee41232f.chunk.js.map",
+    "main.js": "/static/js/main.57806bf0.chunk.js",
+    "main.js.map": "/static/js/main.57806bf0.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d80742ed.js",
     "runtime-main.js.map": "/static/js/runtime-main.d80742ed.js.map",
     "static/js/2.75bb20c5.chunk.js": "/static/js/2.75bb20c5.chunk.js",
@@ -20,6 +20,19 @@
     "static/media/6.1309e220.jpg": "/static/media/6.1309e220.jpg",
     "static/media/7.d39e9cce.jpg": "/static/media/7.d39e9cce.jpg",
     "static/media/8.c4b18c0e.jpg": "/static/media/8.c4b18c0e.jpg",
+    "static/media/Blaze.2d03b28e.jpg": "/static/media/Blaze.2d03b28e.jpg",
+    "static/media/Bouquet.c5b124a3.jpg": "/static/media/Bouquet.c5b124a3.jpg",
+    "static/media/Connection.2f751ee1.jpg": "/static/media/Connection.2f751ee1.jpg",
+    "static/media/Escape.11b2c54c.jpg": "/static/media/Escape.11b2c54c.jpg",
+    "static/media/Grace.bce93c1f.jpg": "/static/media/Grace.bce93c1f.jpg",
+    "static/media/Hero.bb2f3f86.jpg": "/static/media/Hero.bb2f3f86.jpg",
+    "static/media/Lightening.84c21a0b.jpg": "/static/media/Lightening.84c21a0b.jpg",
+    "static/media/Memories.1b05482a.jpg": "/static/media/Memories.1b05482a.jpg",
+    "static/media/Patience.f6217c41.jpg": "/static/media/Patience.f6217c41.jpg",
+    "static/media/Seaspray.8194e334.jpg": "/static/media/Seaspray.8194e334.jpg",
+    "static/media/Serene.6311fe26.jpg": "/static/media/Serene.6311fe26.jpg",
+    "static/media/Sisters.487d229a.jpg": "/static/media/Sisters.487d229a.jpg",
+    "static/media/Solitude.0717ed26.jpg": "/static/media/Solitude.0717ed26.jpg",
     "static/media/dog.5dcd3ec6.jpeg": "/static/media/dog.5dcd3ec6.jpeg",
     "static/media/dogPrint.f6af63b2.jpeg": "/static/media/dogPrint.f6af63b2.jpeg",
     "static/media/drinkPrint.227286b3.jpeg": "/static/media/drinkPrint.227286b3.jpeg",
@@ -28,12 +41,13 @@
     "static/media/horse2Print.daa16e9d.jpeg": "/static/media/horse2Print.daa16e9d.jpeg",
     "static/media/horsePrint.c68dfb1c.jpeg": "/static/media/horsePrint.c68dfb1c.jpeg",
     "static/media/horseRiderPrint.6dacb8ff.jpeg": "/static/media/horseRiderPrint.6dacb8ff.jpeg",
+    "static/media/lilyPads.35b3b9c7.jpg": "/static/media/lilyPads.35b3b9c7.jpg",
     "static/media/rm.4baedda7.JPG": "/static/media/rm.4baedda7.JPG"
   },
   "entrypoints": [
     "static/js/runtime-main.d80742ed.js",
     "static/js/2.75bb20c5.chunk.js",
     "static/css/main.c6c279e5.chunk.css",
-    "static/js/main.ee41232f.chunk.js"
+    "static/js/main.57806bf0.chunk.js"
   ]
 }
