@@ -22,7 +22,7 @@ function Prints() {
   return (
     <div className="Prints">
       <p>
-        All signed prints from 8 x 8 inches to 8 x 12 inches £45 including
+        All signed prints from 8 x 8 inches to 8 x 12 inches £30 including
         postage.
       </p>
       <div className="Prints-Display">
