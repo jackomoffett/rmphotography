@@ -17,13 +17,13 @@ import seaspray from "../assets/images/prints/Seaspray.jpg";
 import serene from "../assets/images/prints/Serene.jpg";
 import sisters from "../assets/images/prints/Sisters.jpg";
 import solitude from "../assets/images/prints/Solitude.jpg";
+import flowers from "../assets/images/prints/flowers.jpeg";
 
 function Prints() {
   return (
     <div className="Prints">
       <p>
-        All signed prints from 8 x 8 inches to 8 x 12 inches £35 including
-        postage.
+        All signed prints from 8 x 8 inches to 8 x 12 inches £35, postage £3.50 extra
       </p>
       <div className="Prints-Display">
         <div className="Print-Tile">
@@ -109,6 +109,10 @@ function Prints() {
         <div className="Print-Tile">
           <img className="Print-Tile-Img" src={solitude} alt="Horse" />
           <p>"Solitude"</p>
+        </div>
+        <div className="Print-Tile">
+          <img className="Print-Tile-Img" src={flowers} alt="Horse" />
+          <p>Together</p>
         </div>
       </div>
     </div>
